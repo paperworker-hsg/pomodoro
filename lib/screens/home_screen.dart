@@ -105,8 +105,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+                    const SizedBox(
+                      height: 45,
+                    ),
                     IconButton(
-                      iconSize: 50,
+                      iconSize: 40,
                       color: Theme.of(context).cardColor,
                       onPressed: onResetPressed,
                       icon: const Icon(
